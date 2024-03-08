@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/alokpatel/IdeaProjects/VerifyNGTest">
+        <classes>
+            <class name="OrikanAutomationDemo">
+                <methods>
+                    <include name="ProcessURL" />
+                    <include name="BlankEmailValidation" />
+                    <include name="BlankPasswordValidation" />
+                    <include name="InvalidEmailAddressValidation" />
+                    <include name="PasswordMismatchValidation" />
+                    <include name="ProcessWithSpaceInPasswordFields" />
+                    <include name="CheckValidEmailWithNumbers" />
+                    <include name="ValidEmailAndPassword" />
+                    <include name="BlankFirstNameValidation" />
+                    <include name="EnterSpaceInFirstName" />
+                    <include name="EnterInvalidValueInFirstName" />
+                    <include name="BlankLastNameValidation" />
+                    <include name="EnterSpaceInLastName" />
+                    <include name="EnterInvalidValueInLastName" />
+                    <include name="BlankAddress1Validation" />
+                    <include name="EnterSpaceInAddressLine1" />
+                    <include name="BlankPostalCodeValidation" />
+                    <include name="EnterSpaceInPostalCode" />
+                    <include name="BlankCityValidation" />
+                    <include name="EnterSpaceInCity" />
+                    <include name="BlankStateValidation" />
+                    <include name="ValidContactDetailAndProcess" />
+                    <include name="BlankCardHolderNameValidation" />
+                    <include name="BlankCardTypeValidation" />
+                    <include name="BlankCardNumberValidation" />
+                    <include name="BlankCardCVVValidation" />
+                    <include name="BlankCardExpiryMonthValidation" />
+                    <include name="BlankCardExpiryYearValidation" />
+                    <include name="ValidPaymentDetailAndProcess" />
+                    <include name="ValidWithoutReadTNC" />
+                    <include name="ValidWithoutSelectTNC" />
+                    <include name="SelectTNCAndSubmit" />
+
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>
